@@ -1,0 +1,59 @@
+{
+    "playwright.reuseBrowser": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "cucumberautocomplete.steps": [
+        "cypress/support/step_definitions/*.js", 
+        "src/step-definitions/*.ts",
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+
+    "cucumberautocomplete.syncfeatures": "src/features/*feature",
+    "cucumberautocomplete.customParameters": [],
+
+    "editor.fontVariations": false,
+    "editor.fontLigatures": false,
+    "karateRunner.karateCli.overrideKarateRunner": true,
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "playwright.env": {
+       
+       
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.editorAssociations": {
+        "*.drawio": "default",
+        "*.feature": "default"
+    },
+    "git.autofetch": true,
+    "workbench.editor.enablePreview": false,
+    "cucumber.features": [
+        "src/test/features/*.feature",
+    ],
+    "cucumber.glue": [
+        "src/test/steps/*.ts"
+    ],
+    "cucumber.parameterTypes": [
+ 
+    ],
+    "debug.javascript.autoAttachFilter": "disabled",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "cucumberautocomplete.formatConfOverride": {
+    
+    
+
+    
+    
+    },
+    "files.associations": {
+        "*.feature": "javascript"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+   
+}
